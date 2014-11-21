@@ -40,6 +40,8 @@ PRODUCT_PACKAGES += \
 
 # Additional settings used in all AOSP builds
 PRODUCT_PROPERTY_OVERRIDES := \
+    ro.config.ringtone=RollOut.ogg \
+    ro.config.notification_sound=Autobot.ogg \
     ro.com.android.dateformat=MM-dd-yyyy
 
 # Put en_US first in the list, so make it default.
