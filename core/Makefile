@@ -147,7 +147,7 @@ ifeq ($(TARGET_BUILD_VARIANT),user)
 
   # Dev. branches should have DISPLAY_BUILD_NUMBER set
   ifeq "true" "$(DISPLAY_BUILD_NUMBER)"
-    BUILD_DISPLAY_ID := LRX21V_v1.0
+    BUILD_DISPLAY_ID := LRX22C_DEV_$(shell date -u +%Y%m%d)
   else
     BUILD_DISPLAY_ID := LRX22C_RC_$(shell date -u +%Y%m%d)
   endif
