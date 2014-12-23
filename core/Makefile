@@ -153,7 +153,7 @@ ifeq ($(TARGET_BUILD_VARIANT),user)
   endif
 else
   # Non-user builds should show detailed build information
-  BUILD_DISPLAY_ID := LRX22G_WEEKLY_$(shell date -u +%Y%m%d)
+  BUILD_DISPLAY_ID := LRX22G_DEV_$(shell date -u +%Y%m%d)
 endif
 
 # Whether there is default locale set in PRODUCT_PROPERTY_OVERRIDES
